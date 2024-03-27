@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Inter;
 }
 
 .card-container {
@@ -78,6 +79,24 @@ body {
   border-radius: 50px;
 }
 
+.user-info {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.user-info > h1 {
+  font-weight: 700;
+}
+
 .user-info > p {
   color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+.bio {
+  font-size: 13px;
+  font-weight: 400;
 }
