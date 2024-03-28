@@ -52,10 +52,20 @@ body {
   background-color: hsl(0, 0%, 20%);
   width: 85%;
   color: hsl(0, 0%, 100%);
-  font-weight: bold;
+  font-weight: 600;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
 }
+
+/* .button-link::after {
+  outline: none;
+  opacity: 0;
+} */
 
 .button-link:hover {
   background-color: hsla(0, 0%, 100%, 0.2);
