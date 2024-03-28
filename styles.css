@@ -62,11 +62,6 @@ body {
   font-size: 14px;
 }
 
-/* .button-link::after {
-  outline: none;
-  opacity: 0;
-} */
-
 .button-link:hover {
   background-color: hsla(0, 0%, 100%, 0.2);
   cursor: pointer;
